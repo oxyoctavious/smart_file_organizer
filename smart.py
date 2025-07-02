@@ -9,10 +9,12 @@ def list_files(directory):
     Found file: zebra.jpeg"""     
     
     def get_folder_for_file(filename):
-        """Images
-        Documents"""
+        """
+        Found folder: Images
+        Found folder: Documents
+        """
     
-        extension= os.path.splitext(filename)[1].lower()
+        extension = os.path.splitext(filename)[1].lower()
     
         FILE_TYPE_MAP= {
             "Images": [".jpg",".jepg",".png",".gif"],
@@ -21,21 +23,22 @@ def list_files(directory):
             "Music": [".mp3",".wav",".aac"],
             "Archives": [".zip",".rar",".tar"],
             "Scripts": [".py",".js",".cpp",".html"],
-        
-    }
-    
-    
-    for folder_name, extension in FILE_TYPE_MAP.items():
-        if ext in extensions:
-            return folder_name
+        } 
+        ext = os.path.splitext(filename)[1].lower() 
+        for folder_name, extension in FILE_TYPE_MAP.items():
+            if ext in extension:
+                return folder_name
         
         return "others"
+    
+    
+    
     
     for filename in os.listdir(directory):
         file_path = os.path.join(directory, filename)
         if os.path.isfile(file_path):
-            target =get_folder_for_file(filename)
-            print(f"{filename}-> {filename}")
+            target = get_folder_for_file(filename)
+            print(f"{filename} --> {target}")
             
             
 if __name__ == "__main__":
