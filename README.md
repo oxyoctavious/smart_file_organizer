@@ -3,7 +3,7 @@
 A simple Python script that automatically organizes files in a folder based on their file type.
 Great for cleaning up messy directories like Downloads, Desktop, or Documents.
 
-📌 **Features*8
+📌 **Features**
 
 Automatically detects file types by extension
 
@@ -71,6 +71,8 @@ python
 Copy
 Edit
 folder_to_scan = "C:/Users/CSH/Downloads"  # or any path you want
+
+
 🧑‍💻**Author**
 
 Vedant Vidhate
