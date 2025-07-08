@@ -26,12 +26,19 @@ shutil module
 🗂️ **Supported File Categories**
 
 Category	Extensions
+
 Images	.jpg, .jpeg, .png, .gif
+
 Documents	.pdf, .docx, .txt, .xlsx
+
 Videos	.mp4, .mov, .avi, .mkv
+
 Music	.mp3, .wav, .aac
+
 Archives	.zip, .rar, .tar
+
 Scripts	.py, .js, .cpp, .html
+
 Others	Anything not matched above
 
 ▶️ **How to Use**
@@ -43,33 +50,33 @@ Make sure you have a folder with random files (like test_folder)
 Open terminal and run:
 
 bash
-Copy
-Edit
+
+
 python smart.py
+
 Your files will be neatly sorted into subfolders inside test_folder.
 
 📝 **Example Output**
 
 mathematica
-Copy
-Edit
+
+
 Moved horse1.jpeg → Images/
 Moved vedant.txt → Documents/
 Moved LT E-Bill.pdf → Documents/
+
 🔧 Customization
+
 Want to organize a different folder?
 
 Open smart.py and change this line:
 
-python
-Copy
-Edit
+
 folder_to_scan = "test_folder"
+
 to
 
-python
-Copy
-Edit
+
 folder_to_scan = "C:/Users/CSH/Downloads"  # or any path you want
 
 
@@ -77,5 +84,6 @@ folder_to_scan = "C:/Users/CSH/Downloads"  # or any path you want
 
 Vedant Vidhate
 Beginner Python & AI/ML enthusiast 
+
 Reference - Google
 
