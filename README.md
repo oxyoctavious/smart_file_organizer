@@ -1,8 +1,8 @@
-📁 Smart File Organizer
+📁 **Smart File Organizer**
 A simple Python script that automatically organizes files in a folder based on their file type.
 Great for cleaning up messy directories like Downloads, Desktop, or Documents.
 
-📌 Features
+📌 **Features*8
 Automatically detects file types by extension
 
 Organizes files into categories like Images, Documents, Videos, etc.
@@ -13,14 +13,14 @@ Works with any folder path
 
 Beginner-friendly, clean code
 
-🧠 Technologies Used
+🧠 **Technologies Used**
 Python 3.x
 
 os module
 
 shutil module
 
-🗂️ Supported File Categories
+🗂️ **Supported File Categories**
 Category	Extensions
 Images	.jpg, .jpeg, .png, .gif
 Documents	.pdf, .docx, .txt, .xlsx
@@ -30,7 +30,7 @@ Archives	.zip, .rar, .tar
 Scripts	.py, .js, .cpp, .html
 Others	Anything not matched above
 
-▶️ How to Use
+▶️ **How to Use**
 Clone the repo or download smart.py
 
 Make sure you have a folder with random files (like test_folder)
@@ -43,7 +43,7 @@ Edit
 python smart.py
 Your files will be neatly sorted into subfolders inside test_folder.
 
-📝 Example Output
+📝 **Example Output**
 mathematica
 Copy
 Edit
@@ -65,7 +65,8 @@ python
 Copy
 Edit
 folder_to_scan = "C:/Users/CSH/Downloads"  # or any path you want
-🧑‍💻 Author
+🧑‍💻**Author**
 Vedant Vidhate
-Beginner Python & AI/ML enthusiast building a strong portfolio 💪
+Beginner Python & AI/ML enthusiast 
+Reference - Google
 
